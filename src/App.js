@@ -6,7 +6,7 @@ import Web3 from "web3";
 
 const web3 = new Web3(
   new Web3.providers.HttpProvider(
-    "https://kovan.infura.io/v3/4835aacd00f14c729f65403918fe2367"
+    // insert Infura or Provider address here
   )
 );
 const { toWei, numberToHex: toHex } = web3.utils;
